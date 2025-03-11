@@ -5,9 +5,6 @@ const app = express();
 const path = require("path");
 const methodOverride = require("method-override");
 const { v4: uuidv4 } = require("uuid");
-process.on('uncaughtException', function (err) {
-  console.log(err);
-});
 
 
 app.use(methodOverride("_method"));
