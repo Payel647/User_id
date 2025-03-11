@@ -25,7 +25,7 @@ let getUser = () => {
 };
 
 let connection = mysql.createConnection({
-  host: "localhost",
+  host:  '127.0.0.1',
   user: "root",
   password: "Payel@2006",
   database: "test",
